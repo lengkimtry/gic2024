@@ -10,7 +10,7 @@ class Category extends Model
     use HasFactory;
     protected $fillable = ['name'];
 
-    // Define the relationship with the Product model
+    // Define the relationship with the Product Model
     public function products()
     {
         return $this->hasMany(Product::class);
