@@ -8,7 +8,7 @@
 
         <style>
             .container {
-                margin: 50px auto;            
+                margin: 60px auto;            
                 text-align: center;
                 background-color: red;
                 color: white;
